@@ -2,17 +2,22 @@
   background-color: #272b34;
   height: 80px;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
+}
+.navbar Searchbar{
+  background-color: seagreen;
 }
 .navbar h1{
   margin-left: 40px;
   
-  text-align: right;
+  
   color: aliceblue;
 }
 
+
 .menu-bars {
+  position: fixed;
   margin-left: 2rem;
   font-size: 2rem;
   background: none;
@@ -28,7 +33,7 @@
   position: fixed;
   top: 0;
   /*left: -100%; */
-  transition: 850ms;
+  /*transition: 850ms; */
 }
 
 .nav-menu.active {
