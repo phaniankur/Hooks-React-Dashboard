@@ -1,0 +1,20 @@
+.tab-bar{
+    
+}
+.tab-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-group{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 8px;
+    padding: 10px;
+    font-size: 18px;
+}
+.tab-group:hover{
+    cursor: pointer;
+    background-color: #b6e7ee;
+    border-radius: 10px;
+}
