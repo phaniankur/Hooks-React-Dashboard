@@ -1,5 +1,6 @@
 import React from 'react'
 import './Ordercard.css'
+import Tracker from '../../pages/Tracker/Tracker'
 
 const Ordercard = () => {
     return (
@@ -11,6 +12,7 @@ const Ordercard = () => {
             </div>
             <div className='card-container-2'>
                 <h1 className='card-header'>Track Order</h1>
+                <Tracker/>
                 <button>More Details</button>
             </div>
             <div className='card-container-3'>
