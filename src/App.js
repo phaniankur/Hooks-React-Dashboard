@@ -7,6 +7,7 @@ import Products from './pages/Products';
 import OrderTab from './components/Order-Tab/OrderTab';
 import Tracker from './pages/Tracker/Tracker';
 import Ordercard from './components/OrderCard/Ordercard';
+import Gridlayout from './pages/Gridlayout';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
+          <Route path='/grid' exact component={Gridlayout} />
           <Route path='/orders' exact component={Ordercard} />
           <Route path='/reports' component={Reports} />
           <Route path='/products' component={Products} />
