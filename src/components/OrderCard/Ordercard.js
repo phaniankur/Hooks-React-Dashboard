@@ -13,7 +13,7 @@ const Ordercard = () => {
             <div className='card-container-2'>
                 <h1 className='card-header'><span>Track Order</span></h1>
                 <Tracker/>
-                <button className='detail-button'><span>More Details</span></button>
+                
             </div>
             <div className='card-container-3'>
                 <h1 className='card-header'><span>Active Subscriptions</span></h1>
