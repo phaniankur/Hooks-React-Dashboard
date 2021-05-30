@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/SideBar/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Reports from './pages/Reports';
 import Products from './pages/Products';
-import OrderTab from './components/Order-Tab/OrderTab';
-import Tracker from './pages/Tracker/Tracker';
-import Ordercard from './components/OrderCard/Ordercard';
-import Gridlayout from './pages/Gridlayout';
+
+import Ordercard from './pages/OrderCard/Ordercard';
+import Gridlayout from './components/GridLayout/Gridlayout';
 
 function App() {
   return (

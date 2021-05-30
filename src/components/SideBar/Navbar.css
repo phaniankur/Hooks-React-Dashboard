@@ -2,14 +2,14 @@
   background-color: #272b34;
   height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .navbar Searchbar{
   background-color: seagreen;
 }
 .navbar h1{
-  margin-left: 40px;
+  margin-left: 20vw;
   
   
   color: aliceblue;
@@ -17,10 +17,7 @@
 
 
 .menu-bars {
-  position: fixed;
-  margin-left: 2rem;
-  font-size: 2rem;
-  background: none;
+  
 }
 
 .nav-menu {
@@ -81,4 +78,18 @@
 
 span {
   margin-left: 16px;
+}
+
+@media screen and (max-width: 1024px){
+  .nav-menu{
+  left: -100%;
+  transition: 850ms;
+  }
+
+  .menu-bars {
+    position: fixed;
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
 }

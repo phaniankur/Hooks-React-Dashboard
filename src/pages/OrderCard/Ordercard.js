@@ -1,6 +1,6 @@
 import React from 'react'
 import './Ordercard.css'
-import Tracker from '../../pages/Tracker/Tracker'
+import Tracker from '../../components/Tracker/Tracker'
 
 const Ordercard = () => {
     return (
@@ -12,7 +12,7 @@ const Ordercard = () => {
             </div>
             <div className='card-container-2'>
                 <h1 className='card-header'><span>Track Order</span></h1>
-                <Tracker/>
+                
                 
             </div>
             <div className='card-container-3'>
